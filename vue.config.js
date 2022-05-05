@@ -3,7 +3,7 @@ module.exports = defineConfig({
 
   pages: {
     index: {
-      entry: './src/examples/main.js',
+      entry: './examples/main.js',
       template: 'public/index.html',
       filename: 'index.html'
     }
