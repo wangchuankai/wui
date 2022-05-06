@@ -1,13 +1,12 @@
 {
   "name": "wui1219",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "lib": "vue-cli-service build --target lib --name wui --dest lib packages/index.js"
-    
   },
   "description": "An Button",
   "keywords": [
@@ -23,7 +22,6 @@
   ],
   "homepage": "https://github.com/wangchuankai/wui",
   "license": "MIT",
-
   "bugs": {
     "url": "https://github.com/wangchuankai/wui/issues"
   },
