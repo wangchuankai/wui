@@ -1,4 +1,5 @@
 const { defineConfig } = require('@vue/cli-service')
+// const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 module.exports = defineConfig({
 
   pages: {
@@ -18,6 +19,12 @@ module.exports = defineConfig({
       .use('babel')
         .loader('babel-loader')
   },
+  configureWebpack:{
+    plugins:[
+      // new BundleAnalyzerPlugin()
+    ]
+  },
   transpileDependencies: true,
-  lintOnSave:false
+  lintOnSave:false,
+  productionSourceMap:false
 })
