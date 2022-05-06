@@ -2,7 +2,7 @@
 
 ## Project setup
 ```
-pnpm install
+npm install wui1219
 ```
 
 ### Compiles and hot-reloads for development
