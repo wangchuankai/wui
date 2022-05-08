@@ -1,8 +1,9 @@
 import Vue from 'vue'
 import ElementUI from 'element-ui';
-import 'element-ui/lib/theme-chalk/index.css';
+import 'element-ui/lib/theme-chalk/index.js';
 
 Vue.use(ElementUI)
+
 
 // 导入button组件
 import XButton from './Button'
